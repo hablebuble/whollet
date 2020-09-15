@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:Whollet/constants/colors.dart';
 
 class PositiveButton extends StatelessWidget {
+  final String title;
+
+  PositiveButton(this.title);
+
   @override
   Widget build(BuildContext context) {
     return FlatButton(
@@ -15,7 +19,7 @@ class PositiveButton extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 11.0, horizontal: 13.5),
         child: Text(
-          "Smile :)",
+          title,
           style: TextStyle(
             fontSize: 19,
             fontFamily: 'Titillium',

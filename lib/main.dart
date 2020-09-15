@@ -61,7 +61,7 @@ class MyHomePage extends StatelessWidget {
             SizedBox(height: 24.0),
             DottedButton(),
             SizedBox(height: 24.0),
-            PositiveButton(),
+            PositiveButton('Smile :)'),
             SizedBox(height: 24.0),
             NegativeButton('Frown :('),
 

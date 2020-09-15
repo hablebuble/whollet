@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            PrimaryButton(),
+            PrimaryButton("Let's Get Started"),
             SizedBox(height: 24.0),
             GhostButton(),
             SizedBox(height: 24.0),

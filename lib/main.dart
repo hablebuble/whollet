@@ -1,13 +1,5 @@
-
-import 'package:Whollet/widgets/negative_button.dart';
-import 'package:Whollet/widgets/positive_button.dart';
+import 'package:Whollet/widgets/succesfull_notification.dart';
 import 'package:flutter/material.dart';
-import 'package:Whollet/widgets/primary_button.dart';
-import 'package:Whollet/widgets/ghost_button.dart';
-import 'package:Whollet/widgets/disabled_button.dart';
-
-
-
 
 void main() {
   runApp(MyApp());
@@ -44,31 +36,13 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      width: double.infinity,
-      height: double.infinity,
-      child: Center(
-
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            PrimaryButton("Let's Get Started"),
-            SizedBox(height: 24.0),
-            GhostButton(),
-            SizedBox(height: 24.0),
-            DisabledButton(),
-            SizedBox(height: 24.0),
-            PositiveButton('Smile :)'),
-            SizedBox(height: 24.0),
-            NegativeButton('Frown :('),
-
-
-
-          ],
-        ),
+    return Scaffold(
+      body: Container(
+        color: Colors.white,
+        width: double.infinity,
+        height: double.infinity,
+        child: Center(child: SuccesfullNotification()),
       ),
     );
   }
 }
-

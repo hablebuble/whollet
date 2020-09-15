@@ -1,3 +1,4 @@
+import 'package:Whollet/widgets/rejected_notification.dart';
 import 'package:Whollet/widgets/succesfull_notification.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +42,14 @@ class MyHomePage extends StatelessWidget {
         color: Colors.white,
         width: double.infinity,
         height: double.infinity,
-        child: Center(child: SuccesfullNotification()),
+        child: Center(child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            SuccesfullNotification(),
+            SizedBox(height: 24.0),
+            RejectedNotification(),
+          ],
+        )),
       ),
     );
   }

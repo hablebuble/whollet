@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:Whollet/widgets/primary_button.dart';
 import 'package:Whollet/widgets/ghost_button.dart';
 import 'package:Whollet/widgets/disabled_button.dart';
-import 'package:Whollet/widgets/dotted_button.dart';
+
 
 
 
@@ -58,8 +58,6 @@ class MyHomePage extends StatelessWidget {
             GhostButton(),
             SizedBox(height: 24.0),
             DisabledButton(),
-            SizedBox(height: 24.0),
-            DottedButton(),
             SizedBox(height: 24.0),
             PositiveButton('Smile :)'),
             SizedBox(height: 24.0),

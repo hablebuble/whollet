@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:Whollet/constants/colors.dart';
 
 class GhostButton extends StatelessWidget {
+  final String title;
+  GhostButton(this.title);
+
   @override
   Widget build(BuildContext context) {
     return FlatButton(
@@ -23,7 +26,7 @@ class GhostButton extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 11.0, horizontal: 13.5),
         child: Text(
-          'Spoooooky',
+          title,
           style: TextStyle(
             fontSize: 19,
             fontFamily: 'Titillium',

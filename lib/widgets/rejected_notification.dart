@@ -20,7 +20,7 @@ class RejectedNotification extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Icon(Icons.close_rounded, color: red, size: 20.0,),
+              Icon(Icons.cancel, color: red, size: 20.0,),
               SizedBox(width: 12.0),
               Text('Rejected profile verification', style: TextStyle(
                 fontFamily: "Titillium",

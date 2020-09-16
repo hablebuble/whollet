@@ -10,6 +10,8 @@ const Color midnightBlue = Color(0xFF0d1f3c); // Titles, Headlines
 const Color darkGray = Color(0xFF3d4c63); // Paragraph
 const Color gray = Color(0xFFb5bbc9); // Labels
 const Color lightGray = Color(0xFFcfd2d8); // Disabled states
+const Color background = Color(0xFFEDF1F9); // Onboarding background
+
 
 
 //const MaterialColor gray = MaterialColor(0xFFcbd5e0, const <int, Color>{

@@ -1,3 +1,4 @@
+import 'package:Whollet/widgets/action_buttons.dart';
 import 'package:Whollet/widgets/rejected_notification.dart';
 import 'package:Whollet/widgets/succesfull_notification.dart';
 import 'package:flutter/material.dart';
@@ -48,6 +49,8 @@ class MyHomePage extends StatelessWidget {
             SuccesfullNotification(),
             SizedBox(height: 24.0),
             RejectedNotification(),
+            SizedBox(height: 24.0),
+            ActionButtons()
           ],
         )),
       ),

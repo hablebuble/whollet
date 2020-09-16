@@ -1,6 +1,4 @@
-import 'package:Whollet/widgets/action_buttons.dart';
-import 'package:Whollet/widgets/rejected_notification.dart';
-import 'package:Whollet/widgets/succesfull_notification.dart';
+import 'package:Whollet/screens/onboarding_step_1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,22 +36,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        color: Colors.white,
-        width: double.infinity,
-        height: double.infinity,
-        child: Center(child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            SuccesfullNotification(),
-            SizedBox(height: 24.0),
-            RejectedNotification(),
-            SizedBox(height: 24.0),
-            ActionButtons()
-          ],
-        )),
-      ),
-    );
+    return OnboardingStep1();
   }
 }

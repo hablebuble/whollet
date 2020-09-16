@@ -34,10 +34,12 @@ class OnboardingStep1 extends StatelessWidget {
           Expanded(
             child: Container(
               decoration: BoxDecoration(
-                  color: white,
-                  borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(20),
-                      topRight: Radius.circular(20))),
+                color: white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20),
+                  topRight: Radius.circular(20),
+                ),
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -107,7 +109,8 @@ class OnboardingStep1 extends StatelessWidget {
                     child: Row(
                       children: [
                         Expanded(
-                          child: Text('Manage all your crypto assets! It’s simple and easy! ',
+                          child: Text(
+                              'Manage all your crypto assets! It’s simple and easy! ',
                               style: TextStyle(
                                 fontFamily: 'Titillium',
                                 fontSize: 15,
@@ -120,7 +123,9 @@ class OnboardingStep1 extends StatelessWidget {
                   ),
                   Spacer(),
                   GhostButton('Next Step'),
-                  SizedBox(height: 52.0,)
+                  SizedBox(
+                    height: 52.0,
+                  )
                 ],
               ),
             ),

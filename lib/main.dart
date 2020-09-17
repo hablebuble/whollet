@@ -1,7 +1,4 @@
-import 'package:Whollet/screens/onboarding_step_1.dart';
-import 'package:Whollet/screens/onboarding_step_2.dart';
-import 'package:Whollet/screens/onboarding_step_3.dart';
-import 'package:Whollet/screens/onboarding_step_4.dart';
+import 'package:Whollet/screens/onboarding/onboarding_step_1.dart';
 import 'package:flutter/material.dart';
 
 void main() {

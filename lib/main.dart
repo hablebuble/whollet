@@ -1,4 +1,4 @@
-import 'package:Whollet/screens/onboarding/onboarding_step_1.dart';
+import 'package:Whollet/screens/login_signup/login_empty.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,6 +36,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return OnboardingStep1();
+    return LoginEmpty();
   }
 }

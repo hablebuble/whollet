@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:Whollet/constants/colors.dart';
 
-class PrimaryButton extends StatelessWidget {
+class WhiteButton extends StatelessWidget {
 
   final String title;
-  PrimaryButton(this.title);
+  WhiteButton(this.title);
 
   @override
   Widget build(BuildContext context) {
@@ -14,17 +14,17 @@ class PrimaryButton extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(23)
       ),
-      color: primaryBlue,
+      color: white,
       onPressed: (){},
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 13.5),
+        padding: const EdgeInsets.symmetric(vertical: 11.0, horizontal: 13.5),
         child: Text(
           title,
           style: TextStyle(
             fontSize: 19,
             fontFamily: 'Titillium',
             fontWeight: FontWeight.bold,
-            color: white,
+            color: primaryBlue,
 
           ),
         ),
